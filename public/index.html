@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0, shrink-to-fit=no">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="<%= BASE_URL %>static/assets/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="<%= BASE_URL %>static/assets/css/custom/App.css">
+    <link rel="stylesheet" href="<%= BASE_URL %>static/assets/css/font.css">
+    <script src="<%= BASE_URL %>static/assets/js/jquery-3.5.1.min.js"></script>
+    <script src="<%= BASE_URL %>static/assets/js/popper.js"></script>
+    <script src="<%= BASE_URL %>static/assets/js/swal.min.js"></script>
+    <script src="<%= BASE_URL %>static/assets/js/bootstrap/bootstrap.js"></script>
   </head>
   <body>
     <noscript>
@@ -17,5 +20,12 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <script>
+      // window.onload = function(){$('.router-link-exact-active').addClass('active');}
+      window.onload = function(){
+        var el = document.getElementsByClassName('.router-link-exact-active')
+        el.classList.add("active");
+      }
+    </script>
   </body>
 </html>
