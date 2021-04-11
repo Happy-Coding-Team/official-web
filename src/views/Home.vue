@@ -1,9 +1,9 @@
 <template>
   <div>
       <div class="index-full">
-          <span class="index-topic">Promcord</span>
-          <span class="index-desc">Promcord는 자신의 디스코드 서버를 홍보하는 디스코드 봇입니다.<br />Promcord는 여러분의 디스코드 서버를 더 활기차게 만들어 드리려고 노력중입니다.</span>
-          <a href="https://discord.com/api/oauth2/authorize?client_id=720567998783684631&amp;permissions=8&amp;scope=bot" class="index-button">INVITE NOW</a>
+          <span class="index-topic">즐거운 코딩팀</span>
+          <span class="index-desc">즐거운 코딩팀은 15명의 개발자들이 함께 모여 다같이 프로젝트를 이어 나가며, 요즘 4차 혁명에 맞는 Ai관련 프로젝트에도 도전할려고 하고 있습니다.<br>
+4차 산업혁명의 Ai / 인공지능에 즐거운 코딩팀과 함께 하겠습니다.</span>
       </div>
   </div>
 </template>
