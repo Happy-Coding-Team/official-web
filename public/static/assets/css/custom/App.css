@@ -171,7 +171,8 @@
         padding-bottom: 250px;
         text-align: center;
         /* background: linear-gradient(to left, rgba(0,159,212,1) 0%, rgba(0,122,188,1) 100%); */
-        background: url('/promcordbanner.png');
+        /* background: url('/banner.png'); */
+        background: url('/img/bg.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -183,6 +184,7 @@
         font-family: Noto_Sans_KR-Bold;
         font-size: 40px;
         font-weight: bold;
+        z-index: 99;
     }
 
     .index-desc {
@@ -190,6 +192,7 @@
         font-family: Noto_Sans_KR-Regular;
         font-size: 20px;
         padding-bottom: 30px;
+        z-index: 99;
     }
 
     .Link,
@@ -208,12 +211,14 @@
         color: white;
         border-radius: 15px;
         transition: 0.3s;
+        z-index: 99;
     }
 
     .index-button:hover {
         color: white;
         background-color: #091124CF;
         text-decoration: none;
+        z-index: 99;
     }
 
     .right {
@@ -256,7 +261,8 @@
     }
 
     .bg-6 {
-        background: url('/promcordbanner.png') !important;
+        /* background: url('/promcordbanner.png') !important; */
+        background: url('/img/bg.jpg') !important;
         background-size: cover !important;
         background-repeat: no-repeat !important;
         background-position: center center !important;
@@ -267,6 +273,7 @@
         font-family: Noto_Sans_KR-Bold;
         font-size: 30px;
         font-weight: bold;
+        z-index: 99;
     }
 
     .intro-desc {
@@ -275,6 +282,7 @@
         padding-bottom: 20px;
         font-size: 20px;
         font-family: Noto_Sans_KR-Regular;
+        z-index: 99;
     }
 
     .introduce {
@@ -290,6 +298,7 @@
         border-radius: 20px;
         transition: 0.3s;
         border: none;
+        z-index: 99;
     }
 
     .intro-btn:hover {
@@ -309,7 +318,8 @@
         padding-bottom: 100px;
         text-align: center;
         /* background: linear-gradient(to left, rgba(0,159,212,1) 0%, rgba(0,122,188,1) 100%); */
-        background: url('/promcordbanner.png');
+        /* background: url('/banner.png'); */
+        background: url('/img/bg.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -329,7 +339,8 @@
         padding-bottom: var(--height);
         text-align: center;
         /* background: linear-gradient(to left, rgba(0,159,212,1) 0%, rgba(0,122,188,1) 100%); */
-        background: url('/promcordbanner.png');
+        /* background: url('/banner.png'); */
+        background: url('/img/bg.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;

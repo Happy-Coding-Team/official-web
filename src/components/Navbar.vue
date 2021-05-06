@@ -11,7 +11,7 @@
                   <!-- <li class="nav-item"><router-link class="nav-link" to="#">프로젝트 이름 <span class="sr-only">(current)</span></a></li> -->
                   <!-- <li class="nav-item"><router-link class="nav-link" to="#">프로젝트 이름 <span class="sr-only">(current)</span></a></li> -->
                   <li class="nav-item"><router-link class="nav-link" to="/forum">포럼 <span class="sr-only">(current)</span></router-link></li>
-                  <li class="nav-item"><a class="nav-link" href="https://career.happy-coding.kro.kr/">팀원모집 <span class="sr-only">(current)</span></a></li>
+                  <li class="nav-item"><a class="nav-link" href="javascript:Recruit();">팀원모집 <span class="sr-only">(current)</span></a></li>
               </ul>
               </div>
           </div>
