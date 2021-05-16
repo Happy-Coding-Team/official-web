@@ -24,7 +24,7 @@ const routes = [
     component: () => import(/* webpackChunkName: "Forum" */ '../views/Forum.vue')
   },
   {
-    path: '*',
+    path: '/:pathMatch(.*)*',
     component: import(/* webpackChunkName: "NotFound" */ '../views/NotFound.vue')
   }
 ]
