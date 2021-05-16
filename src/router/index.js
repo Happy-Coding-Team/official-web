@@ -23,9 +23,9 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "Forum" */ '../views/Forum.vue')
   },
-  { 
-    path: '*', 
-    component: import(/* webpackChunkName: "NotFound" */ '../views/NotFound.vue') 
+  {
+    path: '*',
+    component: import(/* webpackChunkName: "NotFound" */ '../views/NotFound.vue')
   }
 ]
 
