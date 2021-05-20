@@ -11,7 +11,7 @@
                           <!-- 경고! <br>&nbsp; 등의 문구는 사용 금지 (사용시 css 깨짐) -->
                           <div class="card bot-card">
                               <div class="card-body"><img class="bot-card-img" src="/static/assets/img/members/Haley.png" alt="Haley"><span class="card-title bot-card-title">Haley</span>
-                                  <p class="card-text bot-card-text">abc</p>
+                                  <p class="card-text bot-card-text"></p>
                                   <hr class="rounded bot-dividers"><a href="https://github.com/Haley0101" class="bot-button btn btn-info">Github</a>
                               </div>
                           </div>
