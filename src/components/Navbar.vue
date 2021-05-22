@@ -6,10 +6,7 @@
               <ul class="navbar-nav ml-auto">
                   <li class="nav-item"><router-link exact class="nav-link" to="/">홈 <span class="sr-only">(current)</span></router-link></li>
                   <li class="nav-item"><router-link class="nav-link" to="/members">팀원 소개 <span class="sr-only">(current)</span></router-link></li>
-                  <!-- <li class="nav-item"><router-link class="nav-link" to="#">프로젝트 이름 <span class="sr-only">(current)</span></a></li> -->
-                  <!-- <li class="nav-item"><router-link class="nav-link" to="#">프로젝트 이름 <span class="sr-only">(current)</span></a></li> -->
-                  <!-- <li class="nav-item"><router-link class="nav-link" to="#">프로젝트 이름 <span class="sr-only">(current)</span></a></li> -->
-                  <!-- <li class="nav-item"><router-link class="nav-link" to="#">프로젝트 이름 <span class="sr-only">(current)</span></a></li> -->
+                  <li class="nav-item"><router-link class="nav-link" to="/projects">프로젝트<span class="sr-only">(current)</span></router-link></li>
                   <li class="nav-item"><router-link class="nav-link" to="/forum">포럼 <span class="sr-only">(current)</span></router-link></li>
                   <li class="nav-item"><a class="nav-link" href="javascript:Recruit();">팀원모집 <span class="sr-only">(current)</span></a></li>
               </ul>
