@@ -14,8 +14,8 @@
                     <p class="card-text bot-card-text"></p>
                     <hr class="rounded bot-dividers">
                     <div class="btn-group" role="group" aria-label="Basic example">
-                      <a href="javascript:alert('아직 작업 중입니다.');" class="bot-button btn btn-info">Website</a>
-                      <a href="javascript:alert('아직 작업 중입니다.');" class="bot-button btn btn-info">초대하기</a>
+                      <a href="javascript:alert('아직 작업 중입니다.');" class="btn btn-info">Website</a>
+                      <a href="javascript:alert('아직 작업 중입니다.');" class="btn btn-info">초대하기</a>
                     </div>
                 </div>
             </div>
