@@ -12,7 +12,11 @@
             <div class="card bot-card">
                 <div class="card-body"><img class="bot-card-img" src="/static/assets/img/bots/minigame.png" alt="미니게임"><span class="card-title bot-card-title">미니게임</span>
                     <p class="card-text bot-card-text"></p>
-                    <hr class="rounded bot-dividers"><a href="javascript:alert('아직 작업 중입니다.');" class="bot-button btn btn-info">Website</a><a href="javascript:alert('아직 작업 중입니다.');" class="bot-button btn btn-info">초대하기</a>
+                    <hr class="rounded bot-dividers">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                      <a href="javascript:alert('아직 작업 중입니다.');" class="bot-button btn btn-info">Website</a>
+                      <a href="javascript:alert('아직 작업 중입니다.');" class="bot-button btn btn-info">초대하기</a>
+                    </div>
                 </div>
             </div>
         </div>
