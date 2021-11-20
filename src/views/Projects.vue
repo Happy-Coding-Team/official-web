@@ -10,8 +10,8 @@
         <div class="card-columns">
             <!-- 경고! <br>&nbsp; 등의 문구는 사용 금지 (사용시 css 깨짐) -->
             <div class="card bot-card">
-                <div class="card-body"><img class="bot-card-img" src="/static/assets/img/bots/minigame.png" alt="미니게임"><span class="card-title bot-card-title">미니게임</span>
-                    <p class="card-text bot-card-text"></p>
+                <div class="card-body"><img class="bot-card-img" src="/static/assets/img/projects/mgbot.png" alt="미니게임"><span class="card-title bot-card-title">미니게임봇</span>
+                    <p class="card-text bot-card-text">다양한 미니게임 기능을 제공하는 봇입니다.</p>
                     <hr class="rounded bot-dividers">
                     <div class="btn-group" role="group" aria-label="Basic example">
                       <a href="javascript:alert('아직 작업 중입니다.');" class="btn btn-info">Website</a>
